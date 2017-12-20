@@ -21,11 +21,11 @@ public class Application {
 		return new SpringUtil2();
 	}*/
 	
-	@Bean
+	/*@Bean
 	public SpringUtil3 getSpringUtil3() {
 		return new SpringUtil3();
 	}
-
+*/
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 		logger.info("SpringBoot Start Success");
